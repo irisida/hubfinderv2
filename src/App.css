@@ -7,6 +7,7 @@
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
   --success-color: #28a745;
+  --warn-color: #ffc066;
 }
 
 * {
@@ -84,6 +85,10 @@ img {
 
 .text-danger {
   color: var(--danger-color);
+}
+
+.text-warn {
+  color: var(--warn-color);
 }
 
 .text-center {
@@ -287,6 +292,14 @@ img {
   color: #fff;
 }
 
+.btn-warn,
+.bg-warn,
+.badge-warn,
+.alert-warn {
+  background: var(--warn-color);
+  color: #000;
+}
+
 .btn-white,
 .bg-white,
 .badge-white,
@@ -413,4 +426,8 @@ table th {
     text-align: center;
     justify-content: center;
   }
+}
+
+.smy-3px {
+  margin-bottom: 3px;
 }
